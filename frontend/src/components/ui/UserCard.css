@@ -1,0 +1,75 @@
+/* Effets 3D + Néon */
+.rpg-card {
+  position: relative;
+  width: 220px;
+  padding: 20px;
+  margin: 10px;
+  background: rgba(10, 10, 10, 0.8);
+  border: 2px solid;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 245, 255, 0.3);
+  transition: all 0.3s ease;
+  backdrop-filter: blur(5px);
+}
+
+.rpg-card:hover {
+  transform: translateY(-5px) rotateY(5deg);
+  box-shadow: 0 0 25px currentColor;
+}
+
+/* Avatar Pixel Art */
+.pixel-avatar {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 15px;
+  background: linear-gradient(45deg, #FF00F5, #00F5FF);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+/* Texte RPG */
+.rpg-email {
+  color: #B5FF00;
+  font-family: 'Courier New', monospace;
+  margin: 5px 0;
+}
+
+.rpg-level {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/* Boutons Actions */
+.rpg-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.rpg-button {
+  padding: 5px 10px;
+  background: #0A0A0A;
+  border: 1px solid currentColor;
+  color: #00F5FF;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.rpg-button:hover {
+  background: #00F5FF;
+  color: black;
+}
+
+.rpg-button-danger {
+  color: #FF00F5;
+}
+
+.rpg-button-danger:hover {
+  background: #FF00F5;
+  color: black;
+}

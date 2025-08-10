@@ -1,0 +1,116 @@
+/* Style RPG Cyber */
+.rpg-admin-container {
+  background-color: #0a0a0a;
+  padding: 20px;
+  min-height: 100vh;
+  color: #fff;
+}
+
+.rpg-title {
+  color: #00f5ff !important;
+  text-shadow: 0 0 10px rgba(0, 245, 255, 0.5);
+  font-family: 'Courier New', monospace !important;
+}
+
+.rpg-add-button {
+  background: linear-gradient(45deg, #ff00f5, #00f5ff) !important;
+  color: black !important;
+  font-weight: bold !important;
+  border-radius: 20px !important;
+  box-shadow: 0 0 15px rgba(0, 245, 255, 0.5) !important;
+}
+
+.rpg-card {
+  background: rgba(20, 20, 20, 0.8) !important;
+  border: 2px solid;
+  border-radius: 10px !important;
+  padding: 20px;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(5px);
+}
+
+.rpg-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 245, 255, 0.2) !important;
+}
+
+.rpg-card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.rpg-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.rpg-username {
+  font-weight: bold !important;
+  color: white !important;
+}
+
+.rpg-email {
+  color: #b5ff00 !important;
+  font-family: 'Courier New', monospace !important;
+  margin: 10px 0 !important;
+}
+
+.rpg-role {
+  font-weight: bold !important;
+  margin: 10px 0 !important;
+}
+
+.rpg-card-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.rpg-delete-button {
+  color: #ff00f5 !important;
+}
+
+/* Modal RPG */
+.rpg-dialog {
+  backdrop-filter: blur(5px);
+}
+
+.rpg-dialog .MuiPaper-root {
+  background: #0a0a0a !important;
+  border: 1px solid #00f5ff !important;
+  color: white !important;
+}
+
+.rpg-dialog-title {
+  color: #00f5ff !important;
+  font-family: 'Courier New', monospace !important;
+}
+
+.rpg-input .MuiInputBase-root {
+  color: white !important;
+}
+
+.rpg-input .MuiOutlinedInput-notchedOutline {
+  border-color: #00f5ff !important;
+}
+
+.rpg-select .MuiSelect-icon {
+  color: #00f5ff !important;
+}
+
+.rpg-cancel-button {
+  color: #ff00f5 !important;
+}
+
+.rpg-confirm-button {
+  background-color: #00f5ff !important;
+  color: black !important;
+  font-weight: bold !important;
+}
